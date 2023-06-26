@@ -1,0 +1,32 @@
+Common *Spring Boot* *REST* *JPA* application works with one datasource based on one database.
+
+What if your application works with several database?
+
+And which of databases this request works with is determined from the parameter of the request itself.
+
+How in such case will retain all the advantages of *Spring*+*JPA* (*transaction management*, *repositories*, *entity manager* etc...)?
+
+One of the possible approaches to solving this issue is given in this repository.
+
+The central class is
+`org.ysaspb.dynds.DynamicDataSource`.
+
+How to work with this class was shown in the controller
+`org.ysaspb.dynds.controller.ItemController`
+
+and in tests
+
+`org.ysaspb.dynds.ItemRepositoryTest`,
+`org.ysaspb.dynds.ItemServiceTest`
+.
+
+*Sergei Iurkevich*
+
+email: *ysamobile@gmail.com*
+
+fb: *Sergey Yurkevich*
+
+linkedIn: *Sergei Iurkevich*
+
+telegram: *@iusaspb*
+
