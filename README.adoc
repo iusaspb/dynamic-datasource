@@ -1,6 +1,6 @@
 Common *Spring Boot* *REST* *JPA* application works with one datasource based on one database.
 
-What if your application works with several database?
+What if your application works with several databases?
 
 And which of databases this request works with is determined from the parameter of the request itself.
 
